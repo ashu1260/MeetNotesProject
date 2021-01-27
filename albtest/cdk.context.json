@@ -1,0 +1,45 @@
+{
+  "vpc-provider:account=837255883576:filter.isDefault=false:filter.vpc-id=vpc-0d5906cd5866c1aa3:region=ap-northeast-2:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-0d5906cd5866c1aa3",
+    "vpcCidrBlock": "192.168.0.0/16",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Asha_Public_Subnet",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-028d7c16f1341ac1b",
+            "cidr": "192.168.0.0/24",
+            "availabilityZone": "ap-northeast-2a",
+            "routeTableId": "rtb-08759727f6becc608"
+          },
+          {
+            "subnetId": "subnet-0ff866d98e048daf3",
+            "cidr": "192.168.1.0/24",
+            "availabilityZone": "ap-northeast-2b",
+            "routeTableId": "rtb-0b5278babfeb4cb6c"
+          }
+        ]
+      },
+      {
+        "name": "Asha_Private_Subnet",
+        "type": "Private",
+        "subnets": [
+          {
+            "subnetId": "subnet-04d6972e762931ae3",
+            "cidr": "192.168.2.0/24",
+            "availabilityZone": "ap-northeast-2a",
+            "routeTableId": "rtb-059c326c95c6354d2"
+          },
+          {
+            "subnetId": "subnet-02e64980e5f87e3b9",
+            "cidr": "192.168.3.0/24",
+            "availabilityZone": "ap-northeast-2b",
+            "routeTableId": "rtb-0474f9e1ddd4b1ce7"
+          }
+        ]
+      }
+    ]
+  }
+}
